@@ -31,8 +31,6 @@ sudo apt install -y \
   build-essential pkg-config \
   libssl-dev
 
-Note: Recommended: tpm2-tools ≥ 5.7 (Debian/Ubuntu ship 5.7.x as of 2024–2025)
-
 ### 3.2 System Packages (Backend / Linux Server)
 
 Ubuntu 22.04 or similar:
