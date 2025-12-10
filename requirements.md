@@ -40,7 +40,7 @@ GitHub
 UbuntuUpdates
 +2
 
-3.2. System packages (backend / Linux server)
+## 3.2. System packages (backend / Linux server)
 
 On Ubuntu 22.04 or similar:
 
