@@ -30,3 +30,5 @@ sudo apt install -y \
   tpm2-tools tpm2-tss \
   build-essential pkg-config \
   libssl-dev
+
+Note: Recommended: tpm2-tools ≥ 5.7 (Debian/Ubuntu ship 5.7.x as of 2024–2025)
