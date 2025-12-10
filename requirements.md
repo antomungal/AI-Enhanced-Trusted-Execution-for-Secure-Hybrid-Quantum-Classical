@@ -29,7 +29,7 @@ sudo apt install -y \
   build-essential pkg-config \
   libssl-dev
 
-tpm2-tools ≥ 5.7 (Debian/Ubuntu ship 5.7.x as of 2024–2025). 
+tpm2-tools ≥ 5.7 (Debian/Ubuntu ship 5.7.x as of 2024–2025)
 
 ### 3.2. System packages (backend / Linux server)
 
