@@ -1,5 +1,5 @@
 
-2. Hardware Requirements
+## 2. Hardware Requirements
 
 Edge device
 
@@ -21,8 +21,8 @@ Network connectivity to the Raspberry Pi in a low-latency LAN
 
 The experiments were executed with a TPM-equipped Raspberry Pi 5 as trusted edge and a modest x86_64 server as quantum backend.
 
-3. Software Requirements
-3.1. System packages (edge / Raspberry Pi)
+## 3. Software Requirements
+### 3.1. System packages (edge / Raspberry Pi)
 
 On Raspberry Pi OS (Bookworm, 64-bit):
 
@@ -51,7 +51,7 @@ sudo apt install -y \
   libssl-dev libcurl4-openssl-dev \
   tpm2-tools tpm2-tss
 
-3.3. Open Quantum Safe stack
+### 3.3. Open Quantum Safe stack
 
 On the backend and, if desired, on the edge:
 
@@ -73,7 +73,6 @@ Open Quantum Safe
 OQS project homepage (release notes for liboqs 0.15.0 and oqs-provider 0.10.0): 
 Open Quantum Safe
 
-In short:
 
 # Clone and build liboqs
 git clone https://github.com/open-quantum-safe/liboqs.git
@@ -93,7 +92,8 @@ cmake --build build --target install
 
 The repository includes example oqs-openssl-*.cnf files showing how to load the OQS provider and select ML-KEM and ML-DSA in TLS 1.3 cipher suites.
 
-4. Python Environment
+
+## 4. Python Environment
 
 We provide a requirements.txt file (see below) that pins library versions known to work with the experiments.
 
